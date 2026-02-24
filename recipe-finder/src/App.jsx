@@ -48,7 +48,7 @@ function App() {
 
       <SearchBar onSearch={fetchRecipes} />
 
-      {loading && <p className="text-center mt-4">Loading...</p>}
+      {loading && <p className="text-center mt-4">Loading....</p>}
       {error && <p className="text-center text-red-500 mt-4">{error}</p>}
 
       {selectedRecipe ? (
